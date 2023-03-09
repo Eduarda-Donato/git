@@ -1,0 +1,58 @@
+#Inicializar repositorio
+git init
+
+#Dar status atual do repositório
+git status
+
+#Modificar arquivo e marcar para ser comitado
+git add
+
+---terminal---
+On branch master
+
+No commits yet - sem commits
+---terminal---
+
+
+#Estados do git
+
+---terminal---
+Untracked files - o git não está registrando esse arquivo
+
+Changes to be committed - o git está registrando o arquivo
+(o arquivo foi modificado) e precisa ser comitado para o git gravar
+---terminal---
+
+#Estados do git (modificado, storee, committed)
+
+#Committed
+git commit -m ''
+
+#Mostra o historico de mudanças e informações do git
+git log
+
+#Depois de mudar vc pode adicionar ou discarta mudança
+---terminal---
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+---terminal---
+
+#Mostra mudança 
+git diff
+
+#Clonar repositorio (arquivos, hitorico de mudanças)
+git clone
+
+
+#Enviar para github
+git push origin master
+origin é o repositorio do github,  master do origin
+
+
+#Baixa versão mais atual do repositorio
+git pull
+
+##configurar chave ssh
+##apertar . no repositorio abre o vscode no navedador com o codigo
