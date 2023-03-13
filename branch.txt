@@ -10,6 +10,7 @@ onde fica o código estavel
 pode escolher o nome
 aponta para o o último commit (estado atual)
 git branch
+git checkout -b nomedabranchquedesejacriar
 EX: testing
 
                 cripto   cripto 
