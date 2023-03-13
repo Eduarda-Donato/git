@@ -1,0 +1,39 @@
+#branch
+é um apontador para um commit
+aponta para o anterior
+
+#main/master é a branch defaut 
+main aponta sempre para o último commit
+onde fica o código estavel 
+
+#Criar nova branch
+pode escolher o nome
+aponta para o o último commit (estado atual)
+git branch
+EX: testing
+
+                cripto   cripto 
+main     main                               main(+login)     main(+login +cripto)
+                login    login     login
+
+
+
+#HEAD (apontador especial)
+aponta para a branch atual
+git checkout branchdesejada
+pode apontar para branchs diferentes em pcs diferentes
+se quiser trocar de branch precisa fazer o HEAD apontar para especial
+então se criar um novo commit o apontador para esse commit sera o que o HEAD estiver apontado
+No caso se o HEAD estiver apontando para o testing e for criado um novo commit apenas o testing irá apontar para esse commit
+Se mudar o HEAD de volta para o master e criar um novo commit as branch master e testing ficaram separadas em paralelo
+
+---terminal depois do git log--- 
+commit 5198b54d610dd120cb4d3d0324060b0e6c8c8921 (HEAD -> main)
+Author: Maria Eduarda Donato <maria.donato@academico.ufpb.br>
+Date:   Mon Mar 13 10:34:59 2023 -0300
+
+    update README
+---terminal---
+
+#Juntar branchs
+git merge teste (o HEAD tem que está na main e o teste é a branch que deseja juntar)
