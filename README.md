@@ -1,1 +1,1 @@
-Arquivo README para testar o git
+Instruções para o uso do git
