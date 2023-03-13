@@ -42,3 +42,5 @@ git merge teste (o HEAD tem que está na main e o teste é a branch que deseja j
 
 #Deletar branch
 git branch -d nomedabranch
+
+#Conflitos
