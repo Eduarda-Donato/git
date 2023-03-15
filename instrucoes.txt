@@ -60,3 +60,6 @@ git pull
 ##RESETAR
 git reset --flag commit (id do commit esta no git log)
 flags(soft(deixa no estado antes de fazer o commit, não desfaz o add),mixed(desfaz o add), hard(perigoso))
+
+##RESTORED
+git restore --staged arquivo (não apaga oq mudou só tira do staged)
