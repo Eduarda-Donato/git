@@ -1,1 +1,1 @@
-Biblioteca para o uso do git bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Biblioteca para o uso do git
